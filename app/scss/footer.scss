@@ -1,0 +1,80 @@
+@import "vars";
+// OLD FOOTER
+.main-footer {
+    padding: 2rem 0;
+    padding-bottom: 5rem;
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav,
+    .copy {
+        flex: 1 50rem;
+    }
+    li {
+        margin-bottom: 1rem;
+    }
+    .copy {
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: bold;
+    }
+    a {
+        text-transform: uppercase;
+        color: #000000;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .main-footer {
+        padding-bottom: 1rem;
+        .container {
+            flex-direction: column;
+        }
+        nav,
+        .copy {
+            flex: 1 5rem;
+        }
+        nav {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        a {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+// NEW FOOTER
+.footer {
+    padding: 2rem 0;
+}
+
+.footer__nav {
+    li {
+        margin-bottom: 1rem;
+    }
+    .link {
+        color: $typography-color;
+    }
+    .link:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer__copy {
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+    .footer__copy {
+        text-align: center;
+    }
+}

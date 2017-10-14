@@ -1,0 +1,11 @@
+@import "bourbon";
+
+@include font-face("Segoe UI", "../fonts/Segoe/SegoeUILight", 300);
+@include font-face("Segoe UI", "../fonts/Segoe/SegoeUIItalic", 400);
+@include font-face("Segoe UI", "../fonts/Segoe/SegoeUIBold", 700);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Regular-webfont");
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Bold-webfont", bold);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Black-webfont", 900);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Medium-webfont", 500);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Light-webfont", 300);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Thin-webfont", 100);
